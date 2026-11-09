@@ -1,0 +1,107 @@
+:root {
+  font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;
+  color: var(--aidt-ink);
+  background: var(--aidt-bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-width: 320px;
+  background:
+    radial-gradient(circle at 88% 12%, rgb(196 225 210 / 52%), transparent 28rem),
+    var(--aidt-bg);
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid rgb(22 98 75 / 28%);
+  outline-offset: 2px;
+}
+
+.page-shell {
+  display: grid;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  gap: 20px;
+}
+
+.page-shell > * {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.page-kicker {
+  margin: 0 0 6px;
+  color: var(--aidt-brand);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.page-title {
+  margin: 0;
+  font-size: clamp(1.7rem, 3vw, 2.5rem);
+  line-height: 1.2;
+}
+
+.page-lead {
+  max-width: 780px;
+  margin: 10px 0 0;
+  color: var(--aidt-ink-muted);
+  line-height: 1.75;
+}
+
+.section-card {
+  min-width: 0;
+  max-width: 100%;
+  border: 1px solid var(--aidt-border);
+  border-radius: var(--aidt-radius-lg);
+  background: rgb(255 255 255 / 92%);
+  box-shadow: var(--aidt-shadow);
+  padding: clamp(18px, 3vw, 28px);
+}
+
+.section-card h2 {
+  margin: 0;
+  font-size: 1.08rem;
+}
+
+.section-card p {
+  color: var(--aidt-ink-muted);
+  line-height: 1.7;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

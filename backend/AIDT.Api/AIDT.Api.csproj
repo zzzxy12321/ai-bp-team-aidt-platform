@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <AssemblyName>AIDT.Api</AssemblyName>
+    <RootNamespace>AIDT.Api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AIDT.Application\AIDT.Application.csproj" />
+    <ProjectReference Include="..\AIDT.Domain\AIDT.Domain.csproj" />
+    <ProjectReference Include="..\AIDT.Infrastructure\AIDT.Infrastructure.csproj" />
+    <ProjectReference Include="..\AIDT.Integrations\AIDT.Integrations.csproj" />
+    <ProjectReference Include="..\AIDT.Workflow\AIDT.Workflow.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="..\..\docs\contracts\openapi\v1.json"
+             Link="docs\contracts\openapi\v1.json"
+             CopyToOutputDirectory="PreserveNewest"
+             CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

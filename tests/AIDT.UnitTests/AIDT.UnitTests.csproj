@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <NoWarn>$(NoWarn);CA1707</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" />
+    <PackageReference Include="NSubstitute" />
+    <PackageReference Include="Shouldly" />
+    <PackageReference Include="xunit" />
+    <PackageReference Include="xunit.runner.visualstudio">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\backend\AIDT.Api\AIDT.Api.csproj" />
+    <ProjectReference Include="..\..\backend\AIDT.AiGateway\AIDT.AiGateway.csproj" />
+    <ProjectReference Include="..\..\backend\AIDT.Application\AIDT.Application.csproj" />
+    <ProjectReference Include="..\..\backend\AIDT.Domain\AIDT.Domain.csproj" />
+    <ProjectReference Include="..\..\backend\AIDT.Infrastructure\AIDT.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\backend\AIDT.Integrations\AIDT.Integrations.csproj" />
+    <ProjectReference Include="..\..\backend\AIDT.Workflow\AIDT.Workflow.csproj" />
+  </ItemGroup>
+
+</Project>

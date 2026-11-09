@@ -1,0 +1,2980 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\frontend\\node_modules\\@playwright\\test\\cli.js",
+      "test"
+    ],
+    "configFile": "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\frontend\\playwright.config.ts",
+    "rootDir": "D:/desktop/工作区合区/Vibecoding-目标模式/coding/frontend/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/desktop/工作区合区/Vibecoding-目标模式/coding/docs/project/test-artifacts/playwright-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "desktop-edge",
+        "name": "desktop-edge",
+        "testDir": "D:/desktop/工作区合区/Vibecoding-目标模式/coding/frontend/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 90000
+      },
+      {
+        "outputDir": "D:/desktop/工作区合区/Vibecoding-目标模式/coding/docs/project/test-artifacts/playwright-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "desktop-edge-1280",
+        "name": "desktop-edge-1280",
+        "testDir": "D:/desktop/工作区合区/Vibecoding-目标模式/coding/frontend/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 90000
+      },
+      {
+        "outputDir": "D:/desktop/工作区合区/Vibecoding-目标模式/coding/docs/project/test-artifacts/playwright-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile-edge-390",
+        "name": "mobile-edge-390",
+        "testDir": "D:/desktop/工作区合区/Vibecoding-目标模式/coding/frontend/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 90000
+      },
+      {
+        "outputDir": "D:/desktop/工作区合区/Vibecoding-目标模式/coding/docs/project/test-artifacts/playwright-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "responsive-edge",
+        "name": "responsive-edge",
+        "testDir": "D:/desktop/工作区合区/Vibecoding-目标模式/coding/frontend/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 90000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\docs\\project\\test-artifacts\\playwright-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "desktop-edge",
+        "testDir": "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\frontend\\e2e",
+        "snapshotDir": "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\frontend\\e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 90000,
+        "use": {
+          "baseURL": "http://127.0.0.1:8088",
+          "browserName": "chromium",
+          "executablePath": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+          "locale": "zh-CN",
+          "timezoneId": "Asia/Shanghai",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "viewport": {
+            "width": 1440,
+            "height": 960
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "desktop-edge"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\docs\\project\\test-artifacts\\playwright-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "desktop-edge-1280",
+        "testDir": "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\frontend\\e2e",
+        "snapshotDir": "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\frontend\\e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 90000,
+        "use": {
+          "baseURL": "http://127.0.0.1:8088",
+          "browserName": "chromium",
+          "executablePath": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+          "locale": "zh-CN",
+          "timezoneId": "Asia/Shanghai",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "viewport": {
+            "width": 1280,
+            "height": 900
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "desktop-edge-1280"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\docs\\project\\test-artifacts\\playwright-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "mobile-edge-390",
+        "testDir": "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\frontend\\e2e",
+        "snapshotDir": "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\frontend\\e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 90000,
+        "use": {
+          "baseURL": "http://127.0.0.1:8088",
+          "browserName": "chromium",
+          "executablePath": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+          "locale": "zh-CN",
+          "timezoneId": "Asia/Shanghai",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "isMobile": true
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "mobile-edge-390"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\docs\\project\\test-artifacts\\playwright-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "responsive-edge",
+        "testDir": "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\frontend\\e2e",
+        "snapshotDir": "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\frontend\\e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 90000,
+        "use": {
+          "baseURL": "http://127.0.0.1:8088",
+          "browserName": "chromium",
+          "executablePath": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+          "locale": "zh-CN",
+          "timezoneId": "Asia/Shanghai",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "viewport": {
+            "width": 1280,
+            "height": 900
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "responsive-edge"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../docs/project/test-artifacts/playwright-report.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "../docs/project/test-artifacts/playwright-html",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "aidt.spec.ts",
+      "file": "aidt.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "@desktop creates object and completes WF-001 across all human roles",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 270000,
+              "annotations": [
+                {
+                  "type": "slow",
+                  "location": {
+                    "file": "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\frontend\\e2e\\aidt.spec.ts",
+                    "line": 602,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 46508,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:12:18.950Z",
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\frontend\\e2e\\aidt.spec.ts",
+                        "line": 602,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-ec08f67b7a2bff8cd32b",
+          "file": "aidt.spec.ts",
+          "line": 601,
+          "column": 1
+        },
+        {
+          "title": "@desktop employee entry separates staff and management navigation",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2392,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:13:06.150Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-62c13f6a66e9502261f0",
+          "file": "aidt.spec.ts",
+          "line": 694,
+          "column": 1
+        },
+        {
+          "title": "@desktop unified work center aggregates sources, deduplicates and opens existing details",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 270000,
+              "annotations": [
+                {
+                  "type": "slow",
+                  "location": {
+                    "file": "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\frontend\\e2e\\aidt.spec.ts",
+                    "line": 709,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 44368,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:13:08.559Z",
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\frontend\\e2e\\aidt.spec.ts",
+                        "line": 709,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-2b47b71185eaa1888ae7",
+          "file": "aidt.spec.ts",
+          "line": 708,
+          "column": 1
+        },
+        {
+          "title": "@desktop @desktop1280 @mobile unified confirmation edits minutes and reviews MCP business actions",
+          "ok": true,
+          "tags": [
+            "desktop",
+            "desktop1280",
+            "mobile"
+          ],
+          "tests": [
+            {
+              "timeout": 270000,
+              "annotations": [
+                {
+                  "type": "slow",
+                  "location": {
+                    "file": "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\frontend\\e2e\\aidt.spec.ts",
+                    "line": 896,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 18883,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:13:52.939Z",
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\frontend\\e2e\\aidt.spec.ts",
+                        "line": 896,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-2143da6834dd6451e47d",
+          "file": "aidt.spec.ts",
+          "line": 893,
+          "column": 1
+        },
+        {
+          "title": "@desktop unauthorized work scope is rejected without leaking items",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1601,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:14:11.836Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-60002facb9ef9ec27061",
+          "file": "aidt.spec.ts",
+          "line": 996,
+          "column": 1
+        },
+        {
+          "title": "@desktop file center uploads previews versions and records deletion request",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9569,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:14:13.452Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-9dba779d4b4741f5f4e0",
+          "file": "aidt.spec.ts",
+          "line": 1053,
+          "column": 1
+        },
+        {
+          "title": "@desktop unapproved sensitive file is rejected for employee download",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6748,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:14:23.035Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-4c8016e185d33de6daf0",
+          "file": "aidt.spec.ts",
+          "line": 1108,
+          "column": 1
+        },
+        {
+          "title": "@desktop minutes require confirmation before action task creation",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8090,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:14:29.801Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-e60013a0e5060d869f55",
+          "file": "aidt.spec.ts",
+          "line": 1133,
+          "column": 1
+        },
+        {
+          "title": "@desktop project manager creates project adds member and milestone",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8484,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:14:37.910Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-1ffe9dc8b7466124b5d6",
+          "file": "aidt.spec.ts",
+          "line": 1169,
+          "column": 1
+        },
+        {
+          "title": "@desktop @desktop1280 @mobile project operations persist edit members tasks evidence progress and status",
+          "ok": true,
+          "tags": [
+            "desktop",
+            "desktop1280",
+            "mobile"
+          ],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 33586,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:14:46.415Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-c5fa6a411afd66c33584",
+          "file": "aidt.spec.ts",
+          "line": 1194,
+          "column": 1
+        },
+        {
+          "title": "@desktop batch3 closeout persists inbox project status time and project evidence after refresh",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 26301,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:15:20.017Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-113e21b7a4e1c1f1a70b",
+          "file": "aidt.spec.ts",
+          "line": 1388,
+          "column": 1
+        },
+        {
+          "title": "@desktop inbox keeps agent suggestions human-confirmed and creates idempotent project task",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14482,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:15:46.335Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-83bac5058de51e31a1a0",
+          "file": "aidt.spec.ts",
+          "line": 1501,
+          "column": 1
+        },
+        {
+          "title": "@desktop @desktop1280 @mobile inbox edits context and confirms task with new workflow atomically",
+          "ok": true,
+          "tags": [
+            "desktop",
+            "desktop1280",
+            "mobile"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13779,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:16:00.830Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-935d8173abe56fab9df4",
+          "file": "aidt.spec.ts",
+          "line": 1542,
+          "column": 1
+        },
+        {
+          "title": "@desktop high-risk inbox event remains human boundary",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8261,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:16:14.624Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-1e3b4ba3efb21b64d0b4",
+          "file": "aidt.spec.ts",
+          "line": 1611,
+          "column": 1
+        },
+        {
+          "title": "@desktop workflow policy page saves and publishes low-risk auto proxy",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 270000,
+              "annotations": [
+                {
+                  "type": "slow",
+                  "location": {
+                    "file": "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\frontend\\e2e\\aidt.spec.ts",
+                    "line": 1630,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 35741,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:16:22.903Z",
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\frontend\\e2e\\aidt.spec.ts",
+                        "line": 1630,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-ec9b0d036c654e39a5b5",
+          "file": "aidt.spec.ts",
+          "line": 1629,
+          "column": 1
+        },
+        {
+          "title": "@desktop employee cannot open workflow policy administration",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1845,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:16:58.661Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-3974186056de1c7c8095",
+          "file": "aidt.spec.ts",
+          "line": 1710,
+          "column": 1
+        },
+        {
+          "title": "@desktop META-001-A object model lifecycle and object editing persist",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2799,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:17:00.522Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-201a2a057b52a0918f70",
+          "file": "aidt.spec.ts",
+          "line": 1716,
+          "column": 1
+        },
+        {
+          "title": "@desktop business modeling studio publishes a dynamic form and persists object edits",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 41577,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:17:03.336Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-b4fd04c9e06d732d0029",
+          "file": "aidt.spec.ts",
+          "line": 1852,
+          "column": 1
+        },
+        {
+          "title": "@desktop employee creates an inbox event from the workbench",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4417,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:17:44.928Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-5c798870bc8e6a2d1d02",
+          "file": "aidt.spec.ts",
+          "line": 2186,
+          "column": 1
+        },
+        {
+          "title": "@desktop configuration center creates validates and publishes executable config",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9274,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:17:49.362Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-069278b018f504b2f959",
+          "file": "aidt.spec.ts",
+          "line": 2199,
+          "column": 1
+        },
+        {
+          "title": "@desktop configuration page selects an active agent profile without GUID input",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5460,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:17:58.650Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-cfb9436f8a6b134d35e1",
+          "file": "aidt.spec.ts",
+          "line": 2238,
+          "column": 1
+        },
+        {
+          "title": "@desktop IAM creates publishes hides and restores department navigation",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10553,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:18:04.125Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-2fedd91b3ec03b064f0e",
+          "file": "aidt.spec.ts",
+          "line": 2264,
+          "column": 1
+        },
+        {
+          "title": "@desktop second administrator rejects high-risk permission request with required opinion",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5913,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:18:14.691Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-20a0ec29f1a1072eb1e9",
+          "file": "aidt.spec.ts",
+          "line": 2311,
+          "column": 1
+        },
+        {
+          "title": "@desktop real project manager approves manager business-role node",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12228,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:18:20.616Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-2f15670590289542fe61",
+          "file": "aidt.spec.ts",
+          "line": 2354,
+          "column": 1
+        },
+        {
+          "title": "@desktop digital employee identity lifecycle persists and revokes MCP access",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 27906,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:18:32.859Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-2a9604ee0034d22d2972",
+          "file": "aidt.spec.ts",
+          "line": 2542,
+          "column": 1
+        },
+        {
+          "title": "@desktop high-risk digital employee change requires second administrator",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13754,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:19:00.779Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-f9622498962e0ff9a89c",
+          "file": "aidt.spec.ts",
+          "line": 2708,
+          "column": 1
+        },
+        {
+          "title": "@desktop @desktop1280 @mobile unified confirmation edits minutes and reviews MCP business actions",
+          "ok": true,
+          "tags": [
+            "desktop",
+            "desktop1280",
+            "mobile"
+          ],
+          "tests": [
+            {
+              "timeout": 270000,
+              "annotations": [
+                {
+                  "type": "slow",
+                  "location": {
+                    "file": "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\frontend\\e2e\\aidt.spec.ts",
+                    "line": 896,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge-1280",
+              "projectName": "desktop-edge-1280",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 21359,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:24:02.680Z",
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\frontend\\e2e\\aidt.spec.ts",
+                        "line": 896,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-7b7c7a7ab42d05b1a5a5",
+          "file": "aidt.spec.ts",
+          "line": 893,
+          "column": 1
+        },
+        {
+          "title": "@desktop1280 unified work center fits the compact desktop layout",
+          "ok": true,
+          "tags": [
+            "desktop1280"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge-1280",
+              "projectName": "desktop-edge-1280",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2995,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:24:25.248Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-da82ca5a073c8aa79c0a",
+          "file": "aidt.spec.ts",
+          "line": 1016,
+          "column": 1
+        },
+        {
+          "title": "@desktop @desktop1280 @mobile project operations persist edit members tasks evidence progress and status",
+          "ok": true,
+          "tags": [
+            "desktop",
+            "desktop1280",
+            "mobile"
+          ],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge-1280",
+              "projectName": "desktop-edge-1280",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 21365,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:24:28.256Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-6f9959ecff3c72322c0b",
+          "file": "aidt.spec.ts",
+          "line": 1194,
+          "column": 1
+        },
+        {
+          "title": "@desktop @desktop1280 @mobile inbox edits context and confirms task with new workflow atomically",
+          "ok": true,
+          "tags": [
+            "desktop",
+            "desktop1280",
+            "mobile"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge-1280",
+              "projectName": "desktop-edge-1280",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9748,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:24:49.630Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-d09ab815fc46b8d92382",
+          "file": "aidt.spec.ts",
+          "line": 1542,
+          "column": 1
+        },
+        {
+          "title": "@desktop1280 @mobile modeling and dynamic object pages remain usable without overflow",
+          "ok": true,
+          "tags": [
+            "desktop1280",
+            "mobile"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge-1280",
+              "projectName": "desktop-edge-1280",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3607,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:24:59.388Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-c1f543f64b6a8215bd42",
+          "file": "aidt.spec.ts",
+          "line": 2167,
+          "column": 1
+        },
+        {
+          "title": "@desktop1280 @mobile digital employee identity center remains operable",
+          "ok": true,
+          "tags": [
+            "desktop1280",
+            "mobile"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge-1280",
+              "projectName": "desktop-edge-1280",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3410,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:25:03.009Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-91f18ca3455311a69037",
+          "file": "aidt.spec.ts",
+          "line": 2760,
+          "column": 1
+        },
+        {
+          "title": "@desktop @desktop1280 @mobile unified confirmation edits minutes and reviews MCP business actions",
+          "ok": true,
+          "tags": [
+            "desktop",
+            "desktop1280",
+            "mobile"
+          ],
+          "tests": [
+            {
+              "timeout": 270000,
+              "annotations": [
+                {
+                  "type": "slow",
+                  "location": {
+                    "file": "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\frontend\\e2e\\aidt.spec.ts",
+                    "line": 896,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "mobile-edge-390",
+              "projectName": "mobile-edge-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12490,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:25:19.361Z",
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "D:\\desktop\\工作区合区\\Vibecoding-目标模式\\coding\\frontend\\e2e\\aidt.spec.ts",
+                        "line": 896,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-961080e17441108473c2",
+          "file": "aidt.spec.ts",
+          "line": 893,
+          "column": 1
+        },
+        {
+          "title": "@mobile unified work center keeps task groups usable at 390px",
+          "ok": true,
+          "tags": [
+            "mobile"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-edge-390",
+              "projectName": "mobile-edge-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3108,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:25:32.935Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-3e364bd4f6de9e1a770b",
+          "file": "aidt.spec.ts",
+          "line": 1032,
+          "column": 1
+        },
+        {
+          "title": "@desktop @desktop1280 @mobile project operations persist edit members tasks evidence progress and status",
+          "ok": true,
+          "tags": [
+            "desktop",
+            "desktop1280",
+            "mobile"
+          ],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-edge-390",
+              "projectName": "mobile-edge-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 22948,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:25:36.056Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-f7ad78ef301506f96f0f",
+          "file": "aidt.spec.ts",
+          "line": 1194,
+          "column": 1
+        },
+        {
+          "title": "@desktop @desktop1280 @mobile inbox edits context and confirms task with new workflow atomically",
+          "ok": true,
+          "tags": [
+            "desktop",
+            "desktop1280",
+            "mobile"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-edge-390",
+              "projectName": "mobile-edge-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11546,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:25:59.017Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-5431d48ac8d7897ebdeb",
+          "file": "aidt.spec.ts",
+          "line": 1542,
+          "column": 1
+        },
+        {
+          "title": "@desktop1280 @mobile modeling and dynamic object pages remain usable without overflow",
+          "ok": true,
+          "tags": [
+            "desktop1280",
+            "mobile"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-edge-390",
+              "projectName": "mobile-edge-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3304,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:26:10.574Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-085708922df6c550c300",
+          "file": "aidt.spec.ts",
+          "line": 2167,
+          "column": 1
+        },
+        {
+          "title": "@desktop1280 @mobile digital employee identity center remains operable",
+          "ok": true,
+          "tags": [
+            "desktop1280",
+            "mobile"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-edge-390",
+              "projectName": "mobile-edge-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4229,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:26:13.889Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-4c836e6007a75ce9cb55",
+          "file": "aidt.spec.ts",
+          "line": 2760,
+          "column": 1
+        },
+        {
+          "title": "@mobile essential pages fit 390px and remain operable",
+          "ok": true,
+          "tags": [
+            "mobile"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-edge-390",
+              "projectName": "mobile-edge-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6040,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:26:18.130Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bf24930253a7d6d3d19-e94a7b1fe536294ba140",
+          "file": "aidt.spec.ts",
+          "line": 2792,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "department-workspace.spec.ts",
+      "file": "department-workspace.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "@desktop @desktop1280 部门流程负责人通过可视化配置中心创建节点字段模板",
+          "ok": true,
+          "tags": [
+            "desktop",
+            "desktop1280"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4959,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:19:14.566Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a294d6ca7a7222d3b399-da1b97e148eb6f9b2a2b",
+          "file": "department-workspace.spec.ts",
+          "line": 21,
+          "column": 1
+        },
+        {
+          "title": "@desktop @desktop1280 部门流程负责人通过可视化配置中心创建节点字段模板",
+          "ok": true,
+          "tags": [
+            "desktop",
+            "desktop1280"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge-1280",
+              "projectName": "desktop-edge-1280",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4603,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:25:06.446Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a294d6ca7a7222d3b399-4bf0c9256a09d6d35fbd",
+          "file": "department-workspace.spec.ts",
+          "line": 21,
+          "column": 1
+        },
+        {
+          "title": "@mobile 390px 部门负责人可从部门导航进入流程配置与业务表单预览",
+          "ok": true,
+          "tags": [
+            "mobile"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-edge-390",
+              "projectName": "mobile-edge-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2136,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:26:24.205Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a294d6ca7a7222d3b399-ab0abd70df5638c74fe6",
+          "file": "department-workspace.spec.ts",
+          "line": 74,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "mcp.spec.ts",
+      "file": "mcp.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "@desktop @mcp browser OAuth issues scoped token, discovers tools, enforces revoke and human confirmation",
+          "ok": true,
+          "tags": [
+            "desktop",
+            "mcp"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4983,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:19:19.553Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1a1b0bef50b628ad74e7-493a21098dc6b4048821",
+          "file": "mcp.spec.ts",
+          "line": 56,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "release-matrix.spec.ts",
+      "file": "release-matrix.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "@desktop UX-005 release matrix covers Edge/Chrome, zoom and critical widths",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 300000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 151983,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:19:24.564Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b896656076dbf7a7b68b-eeec9771bf3e75a7d91c",
+          "file": "release-matrix.spec.ts",
+          "line": 210,
+          "column": 1
+        },
+        {
+          "title": "@desktop deployed root shell always revalidates the cached application entry",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:21:56.587Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b896656076dbf7a7b68b-091e3893ecbb5ca42fae",
+          "file": "release-matrix.spec.ts",
+          "line": 228,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "scenarios.spec.ts",
+      "file": "scenarios.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "@desktop 场景中心从 7A API 展示六类业务场景并真实发起样品转产",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7632,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:21:56.622Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "228c869e2a0e583b8177-1be645864f3983b3685c",
+          "file": "scenarios.spec.ts",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "@desktop 配置中心与岗位工作台进入同一个场景中心",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3929,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:22:04.262Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "228c869e2a0e583b8177-9759632751218de9fe5d",
+          "file": "scenarios.spec.ts",
+          "line": 127,
+          "column": 1
+        },
+        {
+          "title": "@desktop 管理员从场景配置页完成草稿校验发布停用恢复",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9488,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:22:08.206Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "228c869e2a0e583b8177-eef14586f3539d74c2cd",
+          "file": "scenarios.spec.ts",
+          "line": 151,
+          "column": 1
+        },
+        {
+          "title": "@desktop1280 场景目录保持三列业务卡片且可进入详情",
+          "ok": true,
+          "tags": [
+            "desktop1280"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge-1280",
+              "projectName": "desktop-edge-1280",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2310,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:25:11.086Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "228c869e2a0e583b8177-a7364ce0488f4c5575d2",
+          "file": "scenarios.spec.ts",
+          "line": 271,
+          "column": 1
+        },
+        {
+          "title": "@mobile 390px 可完成场景发起并查看下一步",
+          "ok": true,
+          "tags": [
+            "mobile"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-edge-390",
+              "projectName": "mobile-edge-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6977,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:26:26.373Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "228c869e2a0e583b8177-a7d326166a3cfd3734e8",
+          "file": "scenarios.spec.ts",
+          "line": 287,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "ux006-intro.spec.ts",
+      "file": "ux006-intro.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "@desktop UX-006 every directly navigable main column exposes the correct introduction",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 28012,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:22:17.748Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1d256aa54944640dd1b9-84034749391caed05c8a",
+          "file": "ux006-intro.spec.ts",
+          "line": 95,
+          "column": 1
+        },
+        {
+          "title": "@desktop UX-006 introduction survives refresh and a new login",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3400,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:22:45.774Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1d256aa54944640dd1b9-aa6d2e800ad828be86bb",
+          "file": "ux006-intro.spec.ts",
+          "line": 110,
+          "column": 1
+        },
+        {
+          "title": "@desktop UX-006 unauthorized users never see a main-column introduction",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1985,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:22:49.188Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1d256aa54944640dd1b9-fc6c84b9c60fd73f6aa0",
+          "file": "ux006-intro.spec.ts",
+          "line": 125,
+          "column": 1
+        },
+        {
+          "title": "@desktop UX-006 release responsive matrix keeps the intro drawer usable",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10146,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:22:51.189Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1d256aa54944640dd1b9-ad55862771cdfde0a5a1",
+          "file": "ux006-intro.spec.ts",
+          "line": 133,
+          "column": 1
+        },
+        {
+          "title": "@desktop UX-006 shell screenshots include full sidebar and navigation bottom",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2816,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:23:01.348Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1d256aa54944640dd1b9-27792bbde8a35045eaf2",
+          "file": "ux006-intro.spec.ts",
+          "line": 193,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "workbench.spec.ts",
+      "file": "workbench.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "@desktop 六类岗位工作台按部门角色显示不同真实首屏",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 17744,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:23:04.198Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "921e070f285a8b470d11-4ddcccd5c509252ceebc",
+          "file": "workbench.spec.ts",
+          "line": 40,
+          "column": 1
+        },
+        {
+          "title": "@desktop 无匹配岗位模板时回退通用部门工作区",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2313,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:23:21.953Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "921e070f285a8b470d11-450711a940ac13433785",
+          "file": "workbench.spec.ts",
+          "line": 72,
+          "column": 1
+        },
+        {
+          "title": "@desktop IAM 工作台模板配置页展示版本、卡片和发布边界",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3959,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:23:24.279Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "921e070f285a8b470d11-9ceeeef56a62bac3f8c1",
+          "file": "workbench.spec.ts",
+          "line": 83,
+          "column": 1
+        },
+        {
+          "title": "@desktop1280 供应链工作台在 1280 宽度保持真实差异",
+          "ok": true,
+          "tags": [
+            "desktop1280"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge-1280",
+              "projectName": "desktop-edge-1280",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1884,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:25:13.421Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "921e070f285a8b470d11-7acc260b52785f7b953b",
+          "file": "workbench.spec.ts",
+          "line": 95,
+          "column": 1
+        },
+        {
+          "title": "@mobile 研发工作台在 390px 单列且无横向溢出",
+          "ok": true,
+          "tags": [
+            "mobile"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-edge-390",
+              "projectName": "mobile-edge-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2718,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:26:33.372Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "921e070f285a8b470d11-810d2048b3fc968493c3",
+          "file": "workbench.spec.ts",
+          "line": 100,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "workspace-layout.spec.ts",
+      "file": "workspace-layout.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "@desktop UX-005-A keeps the sidebar fixed while the body scrolls",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2563,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:23:28.269Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "87206d496e61dcf70a84-b98e5bd0a43560bdf243",
+          "file": "workspace-layout.spec.ts",
+          "line": 20,
+          "column": 1
+        },
+        {
+          "title": "@desktop UX-005-C2 minutes uses live metrics, server filters and independent panes",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5927,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:23:30.843Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "87206d496e61dcf70a84-f25523e089debdee9078",
+          "file": "workspace-layout.spec.ts",
+          "line": 127,
+          "column": 1
+        },
+        {
+          "title": "@desktop UX-005-C1 my work exposes real metrics, filters, categories and intro",
+          "ok": true,
+          "tags": [
+            "desktop"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8405,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:23:36.783Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "87206d496e61dcf70a84-326767eb88e2be169dd2",
+          "file": "workspace-layout.spec.ts",
+          "line": 254,
+          "column": 1
+        },
+        {
+          "title": "@responsive UX-005-A keeps a compact 1280x720 shell without horizontal overflow",
+          "ok": true,
+          "tags": [
+            "responsive"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "responsive-edge",
+              "projectName": "responsive-edge",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2003,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:26:40.386Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "87206d496e61dcf70a84-b684f11952df82d10ce5",
+          "file": "workspace-layout.spec.ts",
+          "line": 75,
+          "column": 1
+        },
+        {
+          "title": "@responsive UX-005-A uses a 600x518-codex navigation drawer",
+          "ok": true,
+          "tags": [
+            "responsive"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "responsive-edge",
+              "projectName": "responsive-edge",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2213,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:26:43.439Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "87206d496e61dcf70a84-d5695adb3eaae2ab1da5",
+          "file": "workspace-layout.spec.ts",
+          "line": 96,
+          "column": 3
+        },
+        {
+          "title": "@responsive UX-005-A uses a 390x844-mobile navigation drawer",
+          "ok": true,
+          "tags": [
+            "responsive"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "responsive-edge",
+              "projectName": "responsive-edge",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3240,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:26:45.662Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "87206d496e61dcf70a84-69f52917b24283a09497",
+          "file": "workspace-layout.spec.ts",
+          "line": 96,
+          "column": 3
+        },
+        {
+          "title": "@responsive UX-005-C2 minutes stacks bounded panes at 600x518-codex",
+          "ok": true,
+          "tags": [
+            "responsive"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "responsive-edge",
+              "projectName": "responsive-edge",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2481,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:26:48.917Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "87206d496e61dcf70a84-5bd662d31f661f8a8ed0",
+          "file": "workspace-layout.spec.ts",
+          "line": 227,
+          "column": 3
+        },
+        {
+          "title": "@responsive UX-005-C2 minutes stacks bounded panes at 390x844-mobile",
+          "ok": true,
+          "tags": [
+            "responsive"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "responsive-edge",
+              "projectName": "responsive-edge",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2449,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:26:51.408Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "87206d496e61dcf70a84-dbea461dd3cf6a4ce8f4",
+          "file": "workspace-layout.spec.ts",
+          "line": 227,
+          "column": 3
+        },
+        {
+          "title": "@responsive UX-005-C1 my work uses cards and a 600x518-codex filter drawer",
+          "ok": true,
+          "tags": [
+            "responsive"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "responsive-edge",
+              "projectName": "responsive-edge",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5406,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:26:53.867Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "87206d496e61dcf70a84-256085ae57234b341ecd",
+          "file": "workspace-layout.spec.ts",
+          "line": 331,
+          "column": 3
+        },
+        {
+          "title": "@responsive UX-005-C1 my work uses cards and a 390x844-mobile filter drawer",
+          "ok": true,
+          "tags": [
+            "responsive"
+          ],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "responsive-edge",
+              "projectName": "responsive-edge",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5340,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:26:59.285Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "87206d496e61dcf70a84-404099c145a72dca3826",
+          "file": "workspace-layout.spec.ts",
+          "line": 331,
+          "column": 3
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-05T06:12:18.224Z",
+    "duration": 887062.505,
+    "expected": 70,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

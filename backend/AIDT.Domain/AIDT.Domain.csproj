@@ -1,0 +1,8 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>AIDT.Domain</AssemblyName>
+    <RootNamespace>AIDT.Domain</RootNamespace>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <AssemblyName>AIDT.Mcp</AssemblyName>
+    <RootNamespace>AIDT.Mcp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ModelContextProtocol" />
+    <PackageReference Include="ModelContextProtocol.AspNetCore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AIDT.Application\AIDT.Application.csproj" />
+    <ProjectReference Include="..\AIDT.Domain\AIDT.Domain.csproj" />
+    <ProjectReference Include="..\AIDT.Infrastructure\AIDT.Infrastructure.csproj" />
+    <ProjectReference Include="..\AIDT.Workflow\AIDT.Workflow.csproj" />
+  </ItemGroup>
+
+</Project>

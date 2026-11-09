@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>AIDT.Workflow</AssemblyName>
+    <RootNamespace>AIDT.Workflow</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AIDT.Application\AIDT.Application.csproj" />
+    <ProjectReference Include="..\AIDT.Domain\AIDT.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Elsa" />
+    <PackageReference Include="Elsa.Persistence.EFCore" />
+    <PackageReference Include="Elsa.Persistence.EFCore.SqlServer" />
+    <PackageReference Include="Elsa.Workflows.Management" />
+    <PackageReference Include="Elsa.Workflows.Runtime" />
+    <PackageReference Include="System.Security.Cryptography.Pkcs" />
+  </ItemGroup>
+
+</Project>

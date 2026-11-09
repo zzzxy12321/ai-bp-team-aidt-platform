@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/backend/">
+    <Project Path="backend/AIDT.Api/AIDT.Api.csproj" />
+    <Project Path="backend/AIDT.AiGateway/AIDT.AiGateway.csproj" />
+    <Project Path="backend/AIDT.Application/AIDT.Application.csproj" />
+    <Project Path="backend/AIDT.Domain/AIDT.Domain.csproj" />
+    <Project Path="backend/AIDT.Infrastructure/AIDT.Infrastructure.csproj" />
+    <Project Path="backend/AIDT.Integrations/AIDT.Integrations.csproj" />
+    <Project Path="backend/AIDT.Mcp/AIDT.Mcp.csproj" />
+    <Project Path="backend/AIDT.Worker/AIDT.Worker.csproj" />
+    <Project Path="backend/AIDT.Workflow/AIDT.Workflow.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AIDT.McpTests/AIDT.McpTests.csproj" />
+    <Project Path="tests/AIDT.UnitTests/AIDT.UnitTests.csproj" />
+  </Folder>
+</Solution>
