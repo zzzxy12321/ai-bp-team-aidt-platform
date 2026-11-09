@@ -4,6 +4,10 @@ This repository contains the complete AIDT formal-system source snapshot for the
 
 The companion demo, documentation catalog, and reusable standards repository is available at [ai-bp-team-reusable-system-by-zxy](https://github.com/zzzxy12321/ai-bp-team-reusable-system-by-zxy).
 
+## Quick access
+
+Start with the standalone reading folder: [`使用前先看这里/`](./使用前先看这里/). It contains the catalog workbook first, followed by numbered copies of all 45 documents. The original rule documents in the rest of the repository remain unchanged.
+
 ## Access model
 
 - Anyone can browse, clone, or download the repository.
