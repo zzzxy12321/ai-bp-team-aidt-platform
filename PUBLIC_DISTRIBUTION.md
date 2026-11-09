@@ -2,6 +2,8 @@
 
 This repository contains the complete AIDT formal-system source snapshot for the AI-BP team.
 
+The companion demo, documentation catalog, and reusable standards repository is available at [ai-bp-team-reusable-system-by-zxy](https://github.com/zzzxy12321/ai-bp-team-reusable-system-by-zxy).
+
 ## Access model
 
 - Anyone can browse, clone, or download the repository.
